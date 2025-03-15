@@ -1,10 +1,13 @@
 from random import randint
+name1= input("Name a cool animal ")
+name2= input("name another cool animal ")
+name3 = randint(1,999)
 points = 0
 maxnum = 100
 random = randint(1,maxnum)
 guesses = randint(1,15)
 initialGuesses = guesses
-
+print("hello " + name1 + name2 + str(name3))
 print("points: " + str(points))
 print("guess a # 1-" + str(maxnum))
 print("guesses: " + str(guesses))
